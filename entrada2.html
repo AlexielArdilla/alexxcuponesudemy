@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>alexxcuponesudemy - Contacto</title>
+    <title>alexxcuponesudemy - Entrada Blog</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,93 +22,36 @@
             <a href="nosotros.html">Sobre mí</a>
             <a href="tienda.html">Tienda</a>
             <a href="blog.html">Blog</a>
-            <a href="contacto.html">Contacto</a>
+            <a href="links.html">Links rápidos</a>
         </nav>
     </div>
 
     
     <main class="contenido-principal contenedor ">
-        <h2 class="text-center">Contacto</h2>
+        <h2 class="text-center">Sobre el RAP y por qué es importante</h2>
 
-        <form class="formulario">
-            <fieldset>
-                <legend>Tus Datos</legend>
-                
-                <div class="campo">
-                    <label for="nombre">Nombre: </label>
-                    <input  id="nombre" type="text" placeholder="Tu Nombre" required>
+        <article class="entrada contenido-entrada-blog">
+            <div class="imagen">
+                <img src="img/post_blog_2.jpg" alt="imagen blog">
+            </div>
+
+            <div class="contenido-blog">
+                <div class="entrada-meta">
+                    <p>Fecha: <span>02 de agosto de 2022</span> </p>
+                    <p>Escrito por: <span>Alejandro G Vera</span> </p>
                 </div>
 
-                <div class="campo">
-                    <label for="asunto">Asunto:</label>
-                    <input id="asunto" type="text" placeholder="Tu Asunto"  required>
+                <div class="entrada-blog">
+                    <p>¿Por qué comencé a prestar atención al RAP? Muchos me lo preguntan, porque saben que lo que más me gusta es el blues, y más allá el rock and roll</p>
+                    <p>Lo que está pasando con el RAP y la cultura Hip-Hop, es muy importante, porque está dando micrófono abierto a los jóvenes. 
+                        Todos los que alguna vez quisieron hablar y decir, este soy yo, este que no es más un anónimo, este que no es ni un nerd, ni un delincuente. 
+                        Simplemente, una persona que vive, y que crea. Eso les da el Rap a los jóvenes. Identidad.
+                    </p>
+
+                    <p>Saludos, hasta nuevos posts <br> <br>Alexx</p>
                 </div>
-
-                <div class="campo">
-                    <label for="email">E-mail:</label>
-                    <input id="email" type="email" placeholder="Tu Email" >
-                </div>
-
-                <div class="campo">
-                    <label for="tel">Teléfono:</label>
-                    <input id="tel" type="tel" placeholder="Tu Teléfono" >
-                </div>
-
-                <div class="campo">
-                    <label for="tel">Mensaje:</label>
-                    <textarea rows="10" cols="20"></textarea>
-                </div>
-
-            </fieldset>
-
-            <fieldset>
-                <legend>País</legend>
-
-                <div class="campo">
-                    <label for="pais">País</label>
-                    <select id="pais">
-                        <option value="">-- Seleccione -- </option>
-                        <option value="MX">México</option>
-                        <option value="PR">Perú</option>
-                        <option value="CO">Colombia</option>
-                        <option value="AR">Argentina</option>
-                        <option value="ES">España</option>
-                        <option value="CL">Chile</option>
-                    </select>
-
-                </div>
-
-            </fieldset>
-
-            <fieldset>
-                <legend>Información Extra</legend>
-                
-                <div class="campo">
-                    <label for="cliente">Cliente</label>
-                    <input id="cliente" type="radio" name="tipo" value="cliente">
-                </div>
-
-                <div class="campo">
-                    <label for="proveedor">Proveedor</label>
-                    <input id="proveedor" type="radio" name="tipo" value="proveedor">
-                </div>
-
-                <div class="campo">
-                    <label for="categoria">Categoría de Interés</label>
-                    <input list="categorias" name="categorias">
-                    <datalist id="categorias">
-                        <option value="Cocina">
-                        <option value="Exterior">
-                        <option value="Recamaras">
-                        <option value="Oficina">
-                        <option value="Televisión">
-                    </datalist>
-                </div>
-
-            </fieldset>
-
-            <input class="btn" type="submit" value="Enviar Formulario" >
-        </form>
+            </div>
+        </article>
         
     </main>
 
