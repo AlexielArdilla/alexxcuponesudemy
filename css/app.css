@@ -502,4 +502,29 @@ p span, .entrada-meta span {
     padding: 1rem;
 }
 
+/*páginas internas*/
+.imagen_musica {
+    background-image: url(../img/musica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 25rem;
+    display: block;
+}
 
+.imagen_literatura {
+    background-image: url(../img/literatura.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 25rem;
+    display: block;
+}
+.imagen_autoayuda {
+    background-image: url(../img/autoayuda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 25rem;
+    display: block;
+}
