@@ -439,7 +439,7 @@ img {
 .entrada-meta p {
     font-weight: bold;
 }
-p span, .entrada-meta span {
+h3 span, p span, .entrada-meta span {
     color: #037bc0;
 }
 /*.contenido-entrada-blog {
